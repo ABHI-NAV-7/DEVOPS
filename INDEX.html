@@ -47,6 +47,171 @@
       <img src="https://via.placeholder.com/100" alt="Smart Device">
     </div>
   </section>
+  /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2874f0; /* Blue Color */
+  padding: 15px 30px;
+}
+
+.navbar .logo h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar .logo p {
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+}
+
+.navbar .logo .plus {
+  font-weight: bold;
+  color: #f8c444; /* Yellow Color */
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.login-btn {
+  background-color: #f8c444; /* Yellow Color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background-color: #d49b34; /* Darker Yellow */
+}
+
+/* Categories Navigation */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+.categories a:hover {
+  background-color: #f8c444; /* Yellow Hover */
+  color: white;
+  border-radius: 5px;
+}
+
+/* Main Banner */
+.main-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2874f0; /* Blue Background */
+  color: white;
+  padding: 40px;
+}
+
+.main-banner .banner-text h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main-banner .banner-text p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.main-banner button {
+  background-color: #f8c444; /* Yellow Button */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-banner button:hover {
+  background-color: #d49b34; /* Darker Yellow */
+}
+
+.main-banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Best Electronics Section */
+.best-electronics {
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.best-electronics h2 {
+  font-size: 28px;
+  color: #2874f0; /* Blue Color */
+  margin-bottom: 20px;
+}
+
+.electronics-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.electronics-grid img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.electronics-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2874f0; /* Blue Background */
+  color: white;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
 
   <footer class="footer">
     <p>© 2024 Flipkart | All rights reserved.</p>
